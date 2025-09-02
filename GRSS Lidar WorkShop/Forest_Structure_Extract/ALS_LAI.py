@@ -15,7 +15,7 @@ classfication = inFile.raw_classification
 return_number = inFile.return_num
 scan_angle = inFile.scan_angle_rank
 # 读取对应的DEM数据
-ds_dem = gdal.Open("sample_dem.tif")
+ds_dem = gdal.Open(os.path.join(script_dir, "sample_dem.tif"))
 rows_dem = ds_dem.RasterYSize
 cols_dem = ds_dem.RasterXSize
 # 获取DEM栅格数据的原点和分辨率信息

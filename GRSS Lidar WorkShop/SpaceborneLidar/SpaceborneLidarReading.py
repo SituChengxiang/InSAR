@@ -90,5 +90,5 @@ we = waveformExtent[mask_01]/2.0
 lee =leadingEdgeExtent[mask_01]/2.0
 tee =trailingEdgeExtent[mask_01]/2.0
 #关闭打开的GLAS文件
-GLA01.close
-f_GLA14.close
+GLA01.close()
+f_GLA14.close()

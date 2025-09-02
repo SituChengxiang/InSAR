@@ -17,6 +17,9 @@ Solutions to DART exercise.pdf
 ```
 为7.28, Prof Paul_Siqueira教授的讲座课后练习，ipynb文件为题目+解答
 
+`GRSS_Lidar_WorkShop`为7.28 郭庆华教授的练习，因为软件是在没法用，只能试着做了做Python的作业，改了改代码跑了一趟  
+输出的基本都写在各个目录的`output.md`里了，还有图片等，都保存了
+
 ```
 Fengyun.md
 Solution to Prof. Zhang's Lecture.pdf
